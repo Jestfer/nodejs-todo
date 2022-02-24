@@ -3,7 +3,7 @@ name: ci-hello
 on:
   push:
     branches-ignore:
-      - workshop-test
+      - master
 
 jobs:
   my-job:
