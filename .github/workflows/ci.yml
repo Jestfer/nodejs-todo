@@ -1,4 +1,5 @@
 name: ci-hello
+on: push
 
 jobs:
   my-job:
