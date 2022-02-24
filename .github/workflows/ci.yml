@@ -1,0 +1,8 @@
+name: ci-hello
+
+jobs:
+  my-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: ci-workflow-test
+        run: echo "Hello World!"
