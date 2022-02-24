@@ -10,5 +10,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: ci-workflow-test
-        run: echo This workflow should not run on the `master` branch
+        run: echo "This workflow should not run on the master branch"
         # run: echo "Hello World!"
