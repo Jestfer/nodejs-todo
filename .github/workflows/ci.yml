@@ -1,4 +1,5 @@
 name: hello-ci
+on: push
 
 jobs:
   greeter:
