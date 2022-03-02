@@ -21,7 +21,7 @@ spec:
       - name: nodejs-todo
         image: jestfer/nodejs-todo:k8s
         ports:
-        - containerPort: 8080
+        - containerPort: 3000
         resources:
           requests:
             cpu: 100m
@@ -36,6 +36,6 @@ spec:
   type: LoadBalancer
   ports:
     - port: 80
-      targetPort: 8080
+      targetPort: 3000
   selector:
     app: nodejs-todo
